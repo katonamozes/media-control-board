@@ -1,0 +1,32 @@
+{
+    "keyboard_name": "MediaControlBoard",
+    "manufacturer": "Mozes Katona",
+    "url": "",
+    "maintainer": "Mozes",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0001",
+        "device_version": "0.0.1"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "matrix_pins": {
+        "direct": [
+            ["GP11", "GP10", "GP9", "GP8", "GP7"]
+        ]
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "GP6", "pin_b": "GP5" }
+        ]
+    },
+    "rgblight": {
+        "led_count": 4,
+        "pin": "GP1"
+    },
+    "features": {
+        "encoder": true,
+        "oled": true,
+        "rgblight": true
+    }
+}
