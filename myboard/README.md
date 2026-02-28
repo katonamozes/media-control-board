@@ -27,7 +27,7 @@ The button connected to pin 7 scrolls right.
 The button connected to pin 11 scrolls left.
 
 The rotary encoder's button is connected to pin 6 and mutes.
-The Rotary encoder's rotation is connected to pin 4 and controls the volume.
+The Rotary encoder's rotation is connected to pin 4 and 5 and controls the volume.
 
 The sk6812MINI-E leds are connected to pin 1.
 
