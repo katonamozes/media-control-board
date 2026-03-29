@@ -1,7 +1,7 @@
 # Media Control Board
 
 A custom 5-key macropad with a rotary encoder, an OLED display, and RGB indicators, powered by a Seeed XIAO RP2040.
-
+![IMG_20260329_131652](https://github.com/user-attachments/assets/4c6f61db-9780-49bd-b14f-6435a77e546f)
 <img width="743" height="788" alt="image" src="https://github.com/user-attachments/assets/4767f666-a09f-413f-a0db-b6e6261581c4" />
 <img width="865" height="858" alt="image" src="https://github.com/user-attachments/assets/a4acb264-5d12-400d-b660-9b5c570a7247" />
 <img width="602" height="844" alt="image" src="https://github.com/user-attachments/assets/e8ba6a89-b146-4bfa-bbde-7637fcc56b45" />
