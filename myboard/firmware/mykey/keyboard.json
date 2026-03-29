@@ -1,0 +1,65 @@
+{
+    "manufacturer": "Mozes",
+    "keyboard_name": "mykey",
+    "maintainer": "Moma120",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "direct_pins": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP3", "GP4", "GP2", "GP1", "GP0", "GP7"]
+        ]
+    },
+    "rgblight": {
+        "pin": "GP26",
+        "led_count": 4,
+        "animations": {
+            "all": true
+        }
+    },
+    "oled": {
+        "driver": "ssd1306"
+    },
+    "dot_config": {
+        "I2C_DRIVER": "vendor",
+        "I2C1_SDA_PIN": "GP28",
+        "I2C1_SCL_PIN": "GP27"
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP29", "pin_b": "GP6"}
+        ]
+    },
+    "i2c_pins": {
+        "sda": "GP27",
+        "scl": "GP28"
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
+                {"matrix": [0, 4], "x": 4, "y": 0},
+                {"matrix": [0, 5], "x": 5, "y": 0}
+            ]
+        }
+    }
+}

@@ -1,0 +1,14 @@
+#pragma once
+
+/* LED Driver Fix */
+#define WS2812_DI_PIN GP26
+#define RGBLIGHT_LIMIT_VAL 120
+#define WS2812_PIO_USE_PIO1
+#define RGBLIGHT_VAL_STEP 8
+#define RGBLIGHT_SLEEP
+
+#define SOFT_I2C_SDA_PIN GP27
+#define SOFT_I2C_SCL_PIN GP28
+
+#define OLED_BRIGHTNESS 255
+#define OLED_TIMEOUT 30000
